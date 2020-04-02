@@ -66,7 +66,18 @@ $route['posts/delete'] = 'posts/delete';
 $route['posts/(:any)'] = 'posts/view/$1';
 
 $route['movies'] = 'movies';
+$route['movies/comment'] = 'movies/comment';
 $route['movies/create'] = 'movies/create';
 $route['movies/edit'] = 'movies/edit';
 $route['movies/delete'] = 'movies/delete';
 $route['movies/(:any)'] = 'movies/view/$1';
+$route['movies/type/films'] = 'movies/type/films/$1';
+$route['movies/type/serials'] = 'movies/type/serials/$1';
+
+$route['rating'] = 'main/rating';
+$route['rating/(:any)'] = 'main/rating/$1';
+
+$route['contact'] = 'main/contact';
+
+$route['search'] = 'search';
+$route['search/(:any)'] = 'search/$1';

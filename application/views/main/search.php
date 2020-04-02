@@ -4,5 +4,5 @@
 	<div class="well">
 		<a href="/movies/view/<?php echo $value['slug']; ?>"><?php echo $value['name']; ?></a><br><br> <?php echo $value['descriptions'].'<br>'; ?>
 	</div>
-	<?php endforeach ?>
-	<?php echo $pagination; ?>
+<?php endforeach ?>
+<?php echo $pagination; ?>
